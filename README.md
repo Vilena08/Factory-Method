@@ -1,0 +1,2 @@
+# Factory-Method
+10
