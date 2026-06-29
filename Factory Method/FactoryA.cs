@@ -1,8 +1,6 @@
-﻿public class FactoryA : Factory
+﻿public class FactoryA : Factory {
+  public override Product FactoryMethod()
 {
-    // Фабрика A создаёт продукт A.
-    public override Product FactoryMethod()
-    {
-        return new ProductA();
-    }
+  return new ProductA();
+  }
 }
